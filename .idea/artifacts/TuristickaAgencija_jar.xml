@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TuristickaAgencija:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TuristickaAgencija_jar</output-path>
+    <root id="archive" name="TuristickaAgencija.jar">
+      <element id="module-output" name="TuristickaAgencija" />
+    </root>
+  </artifact>
+</component>

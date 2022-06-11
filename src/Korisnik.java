@@ -220,7 +220,7 @@ public class Korisnik implements KorisnickaLogika, Serializable
 	public void pregledRezervacija(ArrayList<Object> odmori) {
 		int Broj = -1;
 		Scanner skener = new Scanner(System.in);
-		System.out.println("Vnesite število počitnice ki jih želite spremeniti: ");
+		System.out.println("Vnesite število počitnice za katero želite pregledati rezervacijo: ");
 		for(int i = 0;i<odmori.size();i++){
 			Odmor odmor = (Odmor) odmori.get(i);
 			System.out.println(i+1+". Dežela: "+odmor.getDrzava()+" Cena: "+odmor.getCena()+" Kapaciteta: "+odmor.getKapacitet()+" Termini: "+odmor.getTermini());

@@ -172,6 +172,7 @@ public class UporabnikVmesnik {
         if(rezervacija.kreiranjeRezervacije(korisnik, odmori)){
             return;
         } else {
+            System.out.println("Izbrano število oseba presega dovoljeno število za to lokacijo");
             novaRezervacija(korisnik, odmori);
         }
     }

@@ -1,0 +1,8 @@
+Pozdravljeni,
+
+Prosim poženite jar z naslednjim ukazom za pravilno šifriranje:
+
+java -Dfile.encoding=utf-8 -jar TuristickaAgencija.jar
+
+Lep pozdrav,
+Ivan
